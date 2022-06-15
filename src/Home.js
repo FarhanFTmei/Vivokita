@@ -61,7 +61,7 @@ function classNames(...classes) {
 {/* Carousel */}
 <div
   id="carouselDarkVariant"
-  class="carousel slide carousel-fade carousel-dark relative"
+  class="carousel slide carousel-fade carousel-dark relative hidden sm:block "
   data-bs-ride="carousel"
 >
   {/* <!-- Indicators --> */}
@@ -91,7 +91,7 @@ function classNames(...classes) {
     <div class="carousel-item active relative float-left w-full">
       <img
         src="vivo 1.jpg"
-        class="block w-full"
+        class="block w-full bg-cover"
         alt="Motorbike Smoke"
       />
       <div class="carousel-caption hidden md:block absolute text-center">
@@ -157,7 +157,7 @@ function classNames(...classes) {
 </div>
 
 {/* Vivo Smartphone */}
-    <div className="relative bg-white overflow-hidden pt-40">
+    <div className="relative bg-white overflow-hidden md:pt-40 pt-10">
       <div className="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
           <div className="sm:max-w-lg">
