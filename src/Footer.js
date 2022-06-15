@@ -1,190 +1,258 @@
 export default function Example() {
     return (
-<footer class="text-center lg:text-left bg-indigo-600 text-gray-100">
-  <div class="flex justify-center items-center lg:justify-between p-6 border-b border-gray-300">
-    <div class="mr-12 hidden lg:block">
-      <span>Vivo Smartphone Indonesia</span>
-    </div>
-    <div class="flex justify-center">
-      <a href="https://web.facebook.com/vivoIndonesia?_rdc=1&_rdr" class="mr-6 text-gray-100">
-        <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f"
-          class="w-2.5" role="img" xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 320 512">
-          <path fill="currentColor"
-            d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
-          </path>
-        </svg>
-      </a>
-      <a href="https://twitter.com/vivo_Indonesia" class="mr-6 text-gray-100">
-        <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter"
-          class="w-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-          <path fill="currentColor"
-            d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
-          </path>
-        </svg>
-      </a>
-      <a href="https://www.instagram.com/vivo_indonesia/" class="mr-6 text-gray-100">
-        <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram"
-          class="w-3.5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-          <path fill="currentColor"
-            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
-          </path>
-        </svg>
-      </a>
-      <a href="https://www.linkedin.com/company/vivomobile-indonesia/" class="mr-6 text-gray-100">
-        <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in"
-          class="w-3.5" role="img" xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 448 512">
-          <path fill="currentColor"
-            d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
-          </path>
-        </svg>
-      </a>
-    </div>
-  </div>
-  <div class="mx-6 py-10 text-center md:text-left">
-    <div class="grid grid-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-      <div class="">
-        <h6 class="
-            uppercase
-            font-semibold
-            mb-4
-            flex
-            items-center
-            justify-center
-            md:justify-start
-          ">
-          
-          Popular HP 
-        </h6>
-        <p class="mb-4">
-          <a href="#!" class="text-gray-100">T1 5G</a>
-        </p>
-        <p class="mb-4">
-          <a href="#!" class="text-gray-100">T1 Pro 5G</a>
-        </p>
-        <p class="mb-4">
-          <a href="#!" class="text-gray-100">X70 Pro</a>
-        </p>
-        <p class="mb-4">
-          <a href="#!" class="text-gray-100">V23e</a>
-        </p>
-        <p class="mb-4">
-          <a href="#!" class="text-gray-100">V23 5G</a>
-        </p>
-        <p class="mb-4">
-          <a href="#!" class="text-gray-100">Y75 5G</a>
-        </p>
-        <p class="mb-4">
-          <a href="#!" class="text-gray-100">Y33T</a>
-        </p>
-        <p class="mb-4">
-          <a href="/Produk" class="text-gray-100">Lihat Semua</a>
-        </p>
-      </div>
-      <div class="">
-        <h6 class="uppercase font-semibold mb-4 flex justify-center md:justify-start">
-          Dukungan
-        </h6>
-        <p class="mb-4">
-          <a href="#!" class="text-gray-100">FAQs</a>
-        </p>
-        <p class="mb-4">
-          <a href="#!" class="text-gray-100">Service Center</a>
-        </p>
-        <p class="mb-4">
-          <a href="#!" class="text-gray-100">Funtouch OS</a>
-        </p>
-        <p class="mb-4">
-          <a href="#!" class="text-gray-100">Pembaruan Sistem</a>
-        </p>
-        <p class="mb-4">
-          <a href="#!" class="text-gray-100">Harga Suku Cadang</a>
-        </p>
-        <p class="mb-4">
-          <a href="#!" class="text-gray-100">Otentikasi IMEI</a>
-        </p>
-        <p class="mb-4">
-          <a href="#!" class="text-gray-100">Kebijakan Garansi Vivo</a>
-        </p>
-        <p class="mb-4">
-          <a href="#!" class="text-gray-100">Prize-giving Quiz</a>
-        </p>
-        
-      </div>
-      <div class="">
-        <h6 class="uppercase font-semibold mb-4 flex justify-center md:justify-start">
-          Tentang Vivo
-        </h6>
-        <p class="mb-4">
-          <a href="#!" class="text-gray-100">Info Vivo</a>
-        </p>
-        <p class="mb-4">
-          <a href="#!" class="text-gray-100">Sejarah</a>
-        </p>
-        <p class="mb-4">
-          <a href="#!" class="text-gray-100">Berita</a>
-        </p>
-        <p class="mb-4">
-          <a href="#!" class="text-gray-100">Karir</a>
-        </p>
-        <p class="mb-4">
-          <a href="#!" class="text-gray-100">Legal Notice</a>
-        </p>
-        <p class="mb-4">
-          <a href="#!" class="text-gray-100">tentang kami</a>
-        </p>
-      </div>
-      <div class="">
-        <h6 class="uppercase font-semibold mb-4 flex justify-center md:justify-start">
-          kontak Kami
-        </h6>
-        <p class="flex items-center justify-center md:justify-start mb-4">
-          <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="home"
-            class="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-            <path fill="currentColor"
-              d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z">
-            </path>
-          </svg>
-          Puwokerto, Jawa Tengah, Indonesia
-        </p>
-        <p class="flex items-center justify-center md:justify-start mb-4">
-          <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope"
-            class="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 512 512">
-            <path fill="currentColor"
-              d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z">
-            </path>
-          </svg>
-          vivosmartphoneid@example.com
-        </p>
-        <p class="flex items-center justify-center md:justify-start mb-4">
-          <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone"
-            class="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 512 512">
-            <path fill="currentColor"
-              d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z">
-            </path>
-          </svg>
-          02150960348
-        </p>
-        <p class="flex items-center justify-center md:justify-start">
-          <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="print"
-            class="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 512 512">
-            <path fill="currentColor"
-              d="M448 192V77.25c0-8.49-3.37-16.62-9.37-22.63L393.37 9.37c-6-6-14.14-9.37-22.63-9.37H96C78.33 0 64 14.33 64 32v160c-35.35 0-64 28.65-64 64v112c0 8.84 7.16 16 16 16h48v96c0 17.67 14.33 32 32 32h320c17.67 0 32-14.33 32-32v-96h48c8.84 0 16-7.16 16-16V256c0-35.35-28.65-64-64-64zm-64 256H128v-96h256v96zm0-224H128V64h192v48c0 8.84 7.16 16 16 16h48v96zm48 72c-13.25 0-24-10.75-24-24 0-13.26 10.75-24 24-24s24 10.74 24 24c0 13.25-10.75 24-24 24z">
-            </path>
-          </svg>
-           02234567898
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="text-center p-6 text-gray-600 bg-gray-200">
-    <span>© 2021 Copyright </span>
-    <a class="text-gray-600 font-semibold" href="https://tailwind-elements.com/"> Vivo.com</a>
-  </div>
-</footer>
-    )
-}
+          <div className="relative mt-16 bg-indigo-600">
+            
+            <div className="px-4 pt-12 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+              <div className="grid gap-16 row-gap-10 mb-8 lg:grid-cols-6">
+                <div className="md:max-w-md lg:col-span-2">
+                  <a
+                    href="/"
+                    aria-label="Go home"
+                    title="Company"
+                    className="inline-flex items-center"
+                  >
+                    <svg
+                      className="w-8 text-teal-accent-400"
+                      viewBox="0 0 24 24"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeMiterlimit="10"
+                      stroke="currentColor"
+                      fill="none"
+                    >
+                      <rect x="3" y="1" width="7" height="12" />
+                      <rect x="3" y="17" width="7" height="6" />
+                      <rect x="14" y="1" width="7" height="6" />
+                      <rect x="14" y="11" width="7" height="12" />
+                    </svg>
+                    <span className="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">
+                      Vivo.com
+                    </span>
+                  </a>
+                  <div className="mt-4 lg:max-w-sm">
+                    <p className="text-sm text-white">
+                      Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                      accusantium doloremque laudantium, totam rem aperiam.
+                    </p>
+                    <p className="mt-4 text-sm text-white">
+                      Eaque ipsa quae ab illo inventore veritatis et quasi architecto
+                      beatae vitae dicta sunt explicabo.
+                    </p>
+                  </div>
+                </div>
+                <div className="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4">
+                  <div>
+                    <p className="font-bold tracking-wide text-teal-500">
+                      Category
+                    </p>
+                    <ul className="mt-2 space-y-2">
+                      <li>
+                        <a
+                          href="/"
+                          className="transition-colors duration-300 text-white hover:text-teal-accent-400"
+                        >
+                          News
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="/"
+                          className="transition-colors duration-300 text-white hover:text-teal-accent-400"
+                        >
+                          World
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="/"
+                          className="transition-colors duration-300 text-white hover:text-teal-accent-400"
+                        >
+                          Games
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="/"
+                          className="transition-colors duration-300 text-white hover:text-teal-accent-400"
+                        >
+                          References
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <p className="font-bold tracking-wide text-teal-500">
+                      Cherry
+                    </p>
+                    <ul className="mt-2 space-y-2">
+                      <li>
+                        <a
+                          href="/"
+                          className="transition-colors duration-300 text-white hover:text-teal-accent-400"
+                        >
+                          Web
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="/"
+                          className="transition-colors duration-300 text-white hover:text-teal-accent-400"
+                        >
+                          eCommerce
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="/"
+                          className="transition-colors duration-300 text-white hover:text-teal-accent-400"
+                        >
+                          Business
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="/"
+                          className="transition-colors duration-300 text-white hover:text-teal-accent-400"
+                        >
+                          Entertainment
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="/"
+                          className="transition-colors duration-300 text-white hover:text-teal-accent-400"
+                        >
+                          Portfolio
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <p className="font-bold tracking-wide text-teal-500">
+                      Apples
+                    </p>
+                    <ul className="mt-2 space-y-2">
+                      <li>
+                        <a
+                          href="/"
+                          className="transition-colors duration-300 text-white hover:text-teal-accent-400"
+                        >
+                          Media
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="/"
+                          className="transition-colors duration-300 text-white hover:text-teal-accent-400"
+                        >
+                          Brochure
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="/"
+                          className="transition-colors duration-300 text-white hover:text-teal-accent-400"
+                        >
+                          Nonprofit
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="/"
+                          className="transition-colors duration-300 text-white hover:text-teal-accent-400"
+                        >
+                          Educational
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="/"
+                          className="transition-colors duration-300 text-white hover:text-teal-accent-400"
+                        >
+                          Projects
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <p className="font-bold tracking-wide text-teal-500">
+                      Business
+                    </p>
+                    <ul className="mt-2 space-y-2">
+                      <li>
+                        <a
+                          href="/"
+                          className="transition-colors duration-300 text-white hover:text-teal-accent-400"
+                        >
+                          Infopreneur
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="/"
+                          className="transition-colors duration-300 text-white hover:text-teal-accent-400"
+                        >
+                          Personal
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="/"
+                          className="transition-colors duration-300 text-white hover:text-teal-accent-400"
+                        >
+                          Wiki
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="/"
+                          className="transition-colors duration-300 text-white hover:text-teal-accent-400"
+                        >
+                          Forum
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-col justify-between pt-5 pb-10 border-t border-deep-purple-accent-200 sm:flex-row">
+                <p className="text-sm text-gray-100">
+                  © Copyright 2020 Lorem Inc. All rights reserved.
+                </p>
+                <div className="flex items-center mt-4 space-x-4 sm:mt-0">
+                  <a
+                    href="/"
+                    className="transition-colors duration-300 text-deep-purple-100 hover:text-teal-accent-400"
+                  >
+                    <svg viewBox="0 0 24 24" fill="currentColor" className="h-5">
+                      <path d="M24,4.6c-0.9,0.4-1.8,0.7-2.8,0.8c1-0.6,1.8-1.6,2.2-2.7c-1,0.6-2,1-3.1,1.2c-0.9-1-2.2-1.6-3.6-1.6 c-2.7,0-4.9,2.2-4.9,4.9c0,0.4,0,0.8,0.1,1.1C7.7,8.1,4.1,6.1,1.7,3.1C1.2,3.9,1,4.7,1,5.6c0,1.7,0.9,3.2,2.2,4.1 C2.4,9.7,1.6,9.5,1,9.1c0,0,0,0,0,0.1c0,2.4,1.7,4.4,3.9,4.8c-0.4,0.1-0.8,0.2-1.3,0.2c-0.3,0-0.6,0-0.9-0.1c0.6,2,2.4,3.4,4.6,3.4 c-1.7,1.3-3.8,2.1-6.1,2.1c-0.4,0-0.8,0-1.2-0.1c2.2,1.4,4.8,2.2,7.5,2.2c9.1,0,14-7.5,14-14c0-0.2,0-0.4,0-0.6 C22.5,6.4,23.3,5.5,24,4.6z" />
+                    </svg>
+                  </a>
+                  <a
+                    href="/"
+                    className="transition-colors duration-300 text-deep-purple-100 hover:text-teal-accent-400"
+                  >
+                    <svg viewBox="0 0 30 30" fill="currentColor" className="h-6">
+                      <circle cx="15" cy="15" r="4" />
+                      <path d="M19.999,3h-10C6.14,3,3,6.141,3,10.001v10C3,23.86,6.141,27,10.001,27h10C23.86,27,27,23.859,27,19.999v-10   C27,6.14,23.859,3,19.999,3z M15,21c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S18.309,21,15,21z M22,9c-0.552,0-1-0.448-1-1   c0-0.552,0.448-1,1-1s1,0.448,1,1C23,8.552,22.552,9,22,9z" />
+                    </svg>
+                  </a>
+                  <a
+                    href="/"
+                    className="transition-colors duration-300 text-deep-purple-100 hover:text-teal-accent-400"
+                  >
+                    <svg viewBox="0 0 24 24" fill="currentColor" className="h-5">
+                      <path d="M22,0H2C0.895,0,0,0.895,0,2v20c0,1.105,0.895,2,2,2h11v-9h-3v-4h3V8.413c0-3.1,1.893-4.788,4.659-4.788 c1.325,0,2.463,0.099,2.795,0.143v3.24l-1.918,0.001c-1.504,0-1.795,0.715-1.795,1.763V11h4.44l-1,4h-3.44v9H22c1.105,0,2-0.895,2-2 V2C24,0.895,23.105,0,22,0z" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        );
+      };
+
+
+
+     
